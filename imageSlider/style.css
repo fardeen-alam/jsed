@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel-container{
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+    border: black 3px solid;
+}
+
+.carousel-slide{
+    display: flex;
+}
+
+.prevBtn{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+/* center a css div? */
